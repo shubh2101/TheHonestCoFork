@@ -1,0 +1,452 @@
+.navbar-brand {
+  font-style: normal;
+  line-height: 29px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.font-weight-400 {
+  font-weight: 400;
+}
+.font-weight-600 {
+  font-weight: 600;
+}
+.font-weight-800 {
+  font-weight: 800;
+}
+.border-bottom {
+  border-bottom: 2px solid #fff !important;
+}
+.border-top {
+  border-top: 2px solid #fff !important;
+}
+#hero {
+  height: 100vh;
+  background: #1a1a1a;
+  border: 6px solid #fff;
+}
+.app-container {
+  min-height: 100vh;
+  position: relative;
+}
+.content {
+  position: absolute;
+  width: 100%;
+  bottom: 35%;
+}
+.heading-quote {
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 70px; */
+  font-size: 4vw;
+  line-height: 110%;
+  color: #fff;
+}
+.bottom-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  bottom: 8%;
+}
+.bottom-header-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-align: left;
+}
+.menu-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px !important;
+  color: #fff !important;
+  line-height: 19px;
+  text-transform: uppercase;
+}
+.nav-link > a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+.navbar-expand-lg .navbar-nav .menu-link {
+  padding-right: 1.4rem !important;
+  padding-left: 1.4rem !important;
+}
+.nav-button {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding: 0.8em 1em;
+  color: #1a1a1a;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgb(26 26 26) 8px 8px 0px -1px, rgb(255, 255, 255) 8px 8px;
+  transition: all 0.25s ease-in-out;
+}
+.nav-foot-button {
+  padding: 0.8em 1.5em;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18.2857px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #1a1a1a;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgb(26 26 26) 8px 8px 0px -1px, rgb(255, 255, 255) 8px 8px;
+  transition: all 0.25s ease-in-out;
+}
+.nav-foot-button:hover,
+.nav-button:hover {
+  color: #1a1a1a;
+  box-shadow: 0em 0em #1a1a1a;
+  transform: translate(0.25em, 0.25em);
+}
+.nav-btn-area {
+  position: relative;
+  margin-top: -2%;
+}
+.heading-icon img {
+  width: 4% !important;
+}
+.rotate {
+  animation: rotation 4s infinite linear;
+}
+.bg-elipse {
+  background-image: url("../images/ellipse.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 72%;
+  padding-top: 20px;
+  padding-left: 0;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+/* Header css */
+.header {
+  position: fixed;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 72px;
+  z-index: 1;
+  background: inherit;
+  color: #1a1a1a;
+  overflow: hidden;
+  transition: top 0.3s;
+  z-index: 9;
+}
+.glass {
+  background-color: rgba(238, 238, 238, 0.3);
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); */
+  backdrop-filter: blur(8px);
+  z-index: 9999;
+  /* border-bottom: 1px solid #f1eeee; */
+}
+.glass::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  content: "";
+}
+.header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+.nav-sticky-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  padding: 0.8em 1em;
+  color: #fff;
+  background-color: #1a1a1a;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgb(255, 255, 255) 8px 8px 0px -1px, rgb(0, 0, 0) 8px 8px;
+  transition: all 0.25s ease-in-out;
+}
+.nav-sticky-button:hover {
+  color: #fff;
+  box-shadow: 0em 0em #fff;
+  transform: translate(0.25em, 0.25em);
+}
+.headerVisible {
+  visibility: visible;
+  transition: all 0.3s;
+  border-bottom: 2px solid #fff !important;
+}
+
+.headerHidden {
+  visibility: hidden;
+  transition: all 0.3s;
+  transform: translateY(-100%);
+}
+.with-border-top {
+  border-top: 2px solid #fff;
+}
+
+/*mobile*/
+@media (max-width: 768px) {
+  #hero {
+    height: 85vh;
+  }
+  .app-container {
+    min-height: 85vh;
+    position: relative;
+  }
+  .nav-foot-button {
+    font-size: 12px;
+  }
+  .nav-button {
+    font-size: 20px;
+    padding: 0.9em 2em;
+    margin-top: 30px;
+  }
+  .headerVisible {
+    display: none !important;
+  }
+  .navbar-brand {
+    padding-left: 0.6rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .mobile-navbar-container {
+	 position: absolute;
+	 width: 100%;
+	 heigh: 100%;
+	 text-align: center;
+	 top: 40%;
+	 left: 0;
+	 margin: 0 auto;
+}
+ .mobile-navbar-container a {
+	 /* display: inline-block;
+	 position: relative;
+	 text-align: center; */
+	 color: #fff;
+	 text-decoration: none;
+	 font-size: 36px;
+	 /* overflow: hidden;
+	 top: 5px; */
+}
+ .mobile-navbar-container a:hover:after, .mobile-navbar-container a:focus:after, .mobile-navbar-container a:active:after {
+	 width: 100%;
+}
+ .button_container {
+	 position: fixed;
+	 top: auto;
+	 right: 5%;
+	 width: 35px;
+   margin-bottom: 0%;
+	 cursor: pointer;
+	 z-index: 100;
+	 transition: opacity 0.25s ease;
+}
+ .button_container:hover {
+	 opacity: 1;
+}
+ .button_container.active .top {
+	 transform: translateY(8px) translateX(0) rotate(45deg);
+	 background: #fff;
+}
+ .button_container.active .middle {
+	 opacity: 0;
+	 background: #fff;
+}
+ .button_container.active .bottom {
+	 transform: translateY(-8px) translateX(0) rotate(-45deg);
+	 background: #fff;
+}
+
+.button_container_inner.active .top {
+  transform: translateY(8px) translateX(0) rotate(45deg);
+  background: #fff !important;
+}
+.button_container_inner.active .bottom {
+  transform: translateY(-8px) translateX(0) rotate(-45deg);
+  background: #fff !important;
+}
+.button_container_inner span {
+  background: #1a1a1a !important;
+}
+
+.button_container_contact.active .top {
+  transform: translateY(8px) translateX(0) rotate(45deg);
+  background: #fff !important;
+}
+.button_container_contact.active .bottom {
+  transform: translateY(-8px) translateX(0) rotate(-45deg);
+  background: #fff !important;
+}
+.button_container_contact span {
+  background: #1a1a1a !important;
+}
+ .button_container span {
+	 background: #1a1a1a;
+   mix-blend-mode: difference;
+	 border: none;
+	 height: 1px;
+	 width: 100%;
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 transition: all 0.35s ease;
+	 cursor: pointer;
+}
+ .button_container span:nth-of-type(2) {
+	 top: 8px;
+}
+ .button_container span:nth-of-type(3) {
+	 top: 16px;
+}
+ .overlay {
+	 position: fixed;
+	 background: #1a1a1a;
+	 top: 0;
+	 left: 0;
+	 width: 100%;
+	 height: 0%;
+	 opacity: 0;
+	 visibility: hidden;
+	 transition: opacity 0.35s, visibility 0.35s, height 0.35s;
+	 overflow: hidden;
+}
+ .overlay.open {
+	 opacity: 1;
+	 visibility: visible;
+	 height: 100%;
+}
+ .overlay.open li {
+	 animation: fadeInRight 0.5s ease forwards;
+	 animation-delay: 0.35s;
+}
+ .overlay.open li:nth-of-type(2) {
+	 animation-delay: 0.4s;
+}
+ .overlay.open li:nth-of-type(3) {
+	 animation-delay: 0.45s;
+}
+ .overlay.open li:nth-of-type(4) {
+	 animation-delay: 0.5s;
+}
+ .overlay nav {
+	 position: relative;
+	 height: 70%;
+	 top: 50%;
+	 transform: translateY(-50%);
+	 /* font-size: 50px; */
+	 /* font-weight: 400; */
+	 text-align: left;
+}
+ .overlay ul {
+	 list-style: none;
+	 padding: 0 60px;
+	 margin: 0 auto;
+	 display: inline-block;
+	 position: relative;
+	 height: 100%;
+}
+.pl-6 {
+  padding-left: 60px;
+  padding-bottom: 20px;
+  color: #FFF;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.5;
+}
+ .overlay ul li {
+	 /* display: block; */
+	 /* height: 25%; */
+	 /* height: calc(100% / 4); */
+	 /* min-height: 50px; */
+	 /* position: relative; */
+	 /* opacity: 0; */
+   padding: 10px 0;
+}
+ .overlay ul li a:hover:after, .overlay ul li a:focus:after, .overlay ul li a:active:after {
+	 width: 100%;
+}
+.font-weight-100 {
+  font-weight: 100 !important;
+}

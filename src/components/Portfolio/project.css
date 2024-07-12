@@ -1,0 +1,138 @@
+.other__work__container {
+  background: #1a1a1a;
+  color: #fff;
+  /* padding: 80px 0; */
+}
+.custom_padding{
+  padding-bottom: 100px;
+}
+.heading__wrapper {
+  display: flex;
+  justify-content: space-between;
+  font-size: 32px;
+  margin-block-end: 40px;
+  font-weight: 400px !important;
+}
+
+.other__work__container .heading__wrapper h5 {
+  font-family: "Barlow", sans-serif;
+  font-size: inherit;
+  text-transform: uppercase;
+}
+
+.other__work__container .heading__wrapper span {
+  text-decoration: none;
+ padding-top: 1px;
+  cursor: pointer;
+  font-size: 28px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+}
+
+.other__work__container .blog-heading,
+.other__work__container .blog-title {
+  color: #fff;
+}
+
+.other__work__container .border__fade::before,
+.other__work__container .border__fade::after {
+  content: none;
+}
+
+.other__work__container .portfolio__card:nth-child(2) {
+  border-top: none;
+}
+
+.other__work__container .portfolio__card {
+  padding: 0 !important;
+}
+
+.other__work__container .even-card {
+  border: none;
+}
+
+.other__work__container .border__fade .wrapper {
+  padding: 0;
+}
+
+.other__work__container .slick-next {
+  left: 160px;
+}
+
+.other__work__container .slick-prev {
+  left: 65px;
+}
+
+.other__work__container .slick-prev,
+.other__work__container .slick-next {
+  bottom: -75px;
+  filter: invert();
+}
+
+.other__work__container .slick-slide > div {
+  padding: 0;
+  margin: 0 30px;
+}
+
+.other__work__container .slick-slider {
+  margin: 0 -30px;
+}
+
+.other__work__container .wrapper:hover .image-card img {
+  max-height: 450px;
+}
+
+.other__work__container .image-card {
+  height: 350px;
+}
+
+.other__work__container .image-card img {
+  max-height: 350px;
+}
+.Image_size{
+  padding: 40px;
+  width: 1122px;
+  height: 550px;
+}
+.GridImages{
+  padding: 40px;
+  width: 1122px;
+  height: 1200px;
+}
+.Image_baner{
+  padding-bottom: 60px;
+}
+.text_containe{
+  padding-top: 30px !important;
+}
+.content_text{
+  padding-left: 45px;
+}
+.custom_left_text{
+  padding-right: 45px;
+}
+.heading_line{
+  opacity: 1.25;
+}
+.paddingLeft-even {
+  padding-left: 7%;
+}
+@media screen and (max-width: 560px) {
+  .baner_size{
+    width: 140%;
+  }
+  .Image_size{
+    width: 375px !important;
+    height: 181.558px;
+  }
+  .Image_baner{
+    width: 140%;
+  }
+  .content_text{
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .custom_padding{
+    padding-bottom: 40px;
+  }
+}
