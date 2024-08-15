@@ -48,6 +48,10 @@ import Article29 from './components/Articles/Article29.js';
 import GoogleTagManager from './GoogleTagManager.js';
 import Article30 from './components/Articles/Article30.js';
 import Article31 from './components/Articles/Article31.js';
+import Article32 from './components/Articles/Article32.js';
+import Article33 from './components/Articles/Article33.js';
+import Article34 from './components/Articles/Article34.js';
+import Article35 from './components/Articles/Article35.js';
 
 function App() {
   return (
@@ -236,6 +240,22 @@ function App() {
           <Route
             path="/resources/articles/Empowering-Patient-Knowledge-via-PRM-softwares"
             element={<Article31 />}
+          />
+          <Route
+            path="/resources/articles/The-Comprehensive-Guide-to-Patient-Relationship-Management-in-Healthcare"
+            element={<Article32 />}
+          />
+          <Route
+            path="/resources/articles/Streamlining-Appointments:-How-PRM-Software-Enhances-Scheduling-Efficiency"
+            element={<Article33 />}
+          />
+          <Route
+            path="/resources/articles/Simplifying-Healthcare-Payments:-The-Role-of-Billing-and-Payments"
+            element={<Article34 />}
+          />
+          <Route
+            path="/resources/articles/Seamless-Integration:-The Importance-of-EHR-Integration"
+            element={<Article35 />}
           />
           <Route path="/thankyou" element={<Thanks />} />
           <Route path="*" element={<NotFound />} />

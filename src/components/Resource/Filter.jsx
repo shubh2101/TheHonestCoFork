@@ -29,6 +29,11 @@ import Article28 from '../../images/Article/Article29/28.webp';
 import Article29 from '../../images/Article/Article30/29.webp';
 import Article30 from '../../images/Article/Article31/30.webp';
 import Article31 from '../../images/Article/Article32/31.webp';
+import Article32 from '../../images/Article/Article32a/32.webp';
+import Article33 from '../../images/Article/Article33/33.webp';
+import Article34 from '../../images/Article/Article34/34.webp';
+import Article35 from '../../images/Article/Article35/35.webp';
+
 // import Article29 from '../Articles/Article29'
 
 const Filter = [
@@ -373,6 +378,50 @@ const Filter = [
       'Personalizing health education is a transformative approach to improving patient engagement and health outcomes. Traditional one-size-fits-all educational materials often fail to resonate with diverse patient populations',
     url: '/resources/articles/Empowering-Patient-Knowledge-via-PRM-softwares',
     alt: 'Empowering Patient Knowledge via PRM softwares',
+  },
+  {
+    id: 32,
+    image: Article32,
+    name: 'The Comprehensive Guide to Patient Relationship Management',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Patient Relationship Management (PRM) refers to a strategic approach used by healthcare providers to manage and analyze interactions with patients throughout their healthcare journey.',
+    url: '/resources/articles/The-Comprehensive-Guide-to-Patient-Relationship-Management-in-Healthcare',
+    alt: 'The Comprehensive Guide to Patient Relationship Management',
+  },
+  {
+    id: 33,
+    image: Article33,
+    name: 'Streamlining Appointments: How PRM Software Enhances Scheduling Efficiency',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Traditional appointment scheduling in healthcare settings often involves manual processes, such as phone calls, paper-based systems, and standalone scheduling software. These methods can be inefficient, prone to errors, and time-consuming.',
+    url: '/resources/articles/Streamlining-Appointments:-How-PRM-Software-Enhances-Scheduling-Efficiency',
+    alt: 'Streamlining Appointments: How PRM Software Enhances Scheduling Efficiency',
+  },
+  {
+    id: 34,
+    image: Article34,
+    name: 'Simplifying Healthcare Payments: The Role of Billing and Payments',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      'Simplifying healthcare payments through enhanced billing and payment systems within PRM software is essential for improving transparency, patient understanding, and overall satisfaction.',
+    url: '/resources/articles/Simplifying-Healthcare-Payments:-The-Role-of-Billing-and-Payments',
+    alt: 'Simplifying Healthcare Payments: The Role of Billing and Payments',
+  },
+  {
+    id: 35,
+    image: Article35,
+    name: 'Seamless Integration: The Importance of EHR Integration',
+    category: 'tab2',
+    logo: 'react.svg',
+    description:
+      "EHR systems are digital versions of patients' paper charts, encompassing a wide range of data including medical history, diagnoses, medications, treatment plans, immunization dates, allergies, radiology images, and laboratory test results.",
+    url: '/resources/articles/Seamless-Integration:-The Importance-of-EHR-Integration',
+    alt: 'Seamless Integration: The Importance of EHR Integration',
   },
 ];
 

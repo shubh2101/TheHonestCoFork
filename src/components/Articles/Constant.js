@@ -90,3 +90,8 @@ export const Article16B1c = 'Mental Health Technology';
 export const Article31Banner = 'Health Education in Patient Care';
 export const Article31B1a = 'Health Education';
 export const Article31B1b = 'Leveraging Technology for Interactive Learning';
+
+export const Article32Banner = 'Health Education in Patient Care';
+export const Article32B1a = 'Health Education';
+export const Article32B1b = 'Leveraging Technology for Interactive Learning';
+export const Article32B1c = 'Leveraging Technology for Interactive Learning';
